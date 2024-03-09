@@ -1,0 +1,15 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+.efectivity{
+    color: blueviolet;
+}
+.Web{
+    color: blue;
+}
+
+#up{
+    max-width: 600px;
+    text-align:10;
+    color: rgb(30, 255, 0);
+}
