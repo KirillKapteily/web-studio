@@ -1,5 +1,18 @@
+:root{
+    --accent-color:#2196F3;
+}
+.active{
+    color: var(--accent-color);
+}
+
+
+
+
+
+
 body{
     font-family: 'Arial', sans-serif;
+    
 }
 .efectivity{
     color: blueviolet;
@@ -8,8 +21,37 @@ body{
     color: blue;
 }
 
-#up{
+/* #up{
     max-width: 600px;
     text-align:10;
     color: rgb(30, 255, 0);
+} */
+/* Це початок header */
+header>ul {
+    color: rgb(20, 255, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul>li>a{
+    color: firebrick;
+}
+
+.status{
+    font-size: 30px;
+}
+
+.green{
+   color: green; 
+}
+
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+.test{
+    background-color: rgba(255, 145, 0, 0.692);
 }
