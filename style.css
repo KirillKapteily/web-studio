@@ -1,14 +1,12 @@
 :root{
     --accent-color:#2196F3;
+    --grey-text-color: #757575;
+    --footer-efectivity-substrate-color:#2F303A;
+    --our-command-substrate:#F5F4FA;
 }
 .active{
     color: var(--accent-color);
 }
-
-
-
-
-
 
 body{
     font-family: 'Arial', sans-serif;
@@ -54,4 +52,12 @@ ul>li>a{
 
 .test{
     background-color: rgba(255, 145, 0, 0.692);
+}
+
+.back{
+    background-color: var(--footer-efectivity-substrate-color);
+}
+
+.footer-b{
+    background-color: var(--footer-efectivity-substrate-color);
 }
