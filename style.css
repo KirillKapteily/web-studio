@@ -4,7 +4,7 @@
     --footer-efectivity-substrate-color:#2F303A;
     --our-command-substrate:#F5F4FA;
 }
-.active{
+.active:hover{
     color: var(--accent-color);
 }
 
@@ -13,7 +13,7 @@ body{
     
 }
 .efectivity{
-    color: blueviolet;
+    color: rgb(255, 255, 255);
 }
 .Web{
     color: blue;
@@ -58,6 +58,31 @@ ul>li>a{
     background-color: var(--footer-efectivity-substrate-color);
 }
 
-.footer-b{
+footer{
     background-color: var(--footer-efectivity-substrate-color);
+}
+
+.section{
+    background-color: var(--our-command-substrate);
+}
+
+.efectivity{
+    background-color: var(--footer-efectivity-substrate-color);
+}
+
+.button-order:hover{
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+}
+
+.webstudio{
+    color: var(--accent-color);
+}
+.studio{
+    color: black;
+}
+
+.active-ground:hover{
+    background-color: var(--accent-color);
 }
