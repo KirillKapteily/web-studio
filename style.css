@@ -102,15 +102,15 @@ footer{
   }
   
   .what {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", bold;
     font-weight: 36;
-    font-style: bold;
+    font-style: medium;
   }
 
   .balk {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", black;
     font-weight: 36;
-    font-style: black;
+    font-style: medium;
   }
 
   .name {
@@ -120,27 +120,27 @@ footer{
   }
 
   .decrip {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", regular;
     font-weight: 16;
-    font-style: regular;
+    font-style: normal;
   }
   
   .fo-font {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", regular;
     font-weight: 14;
-    font-style: regular;
+    font-style: normal;
   }
 
   .balk2 {
     font-family: "Roboto", sans-serif;
     font-weight: 44;
-    font-style: black;
+    font-style: normal;
   }
 
   .name-2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", bold;
     font-weight: 18;
-    font-style: bold;
+    font-style: normal;
   }
   
   
