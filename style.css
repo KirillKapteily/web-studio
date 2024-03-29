@@ -6,10 +6,7 @@
 }
 .active:hover{
     color: var(--accent-color);
-}
 
-body{
-    font-family: 'Arial', sans-serif;
     
 }
 .efectivity{
@@ -30,9 +27,6 @@ header>ul {
     font-family: 'Courier New', Courier, monospace;
 }
 
-ul>li>a{
-    color: firebrick;
-}
 
 .status{
     font-size: 30px;
@@ -70,7 +64,7 @@ footer{
     background-color: var(--footer-efectivity-substrate-color);
 }
 
-.button-order:hover{
+.button-order{
     background-color: var(--accent-color);
     color: white;
     border: none;
@@ -78,11 +72,83 @@ footer{
 
 .webstudio{
     color: var(--accent-color);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 26;
+    font-style: bold;
 }
 .studio{
     color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 26;
+    font-style: bold;
 }
 
 .active-ground:hover{
     background-color: var(--accent-color);
 }
+
+.active {
+    font-family: "Roboto", sans-serif;
+    font-weight: 14;
+    font-style: medium;
+  }
+
+  .fblack {
+    font-family: "Roboto", sans-serif;
+    font-weight: 14;
+    font-style: normal;
+  }
+  
+  .what {
+    font-family: "Roboto", sans-serif;
+    font-weight: 36;
+    font-style: bold;
+  }
+
+  .balk {
+    font-family: "Roboto", sans-serif;
+    font-weight: 36;
+    font-style: black;
+  }
+
+  .name {
+    font-family: "Roboto", sans-serif;
+    font-weight:16;
+    font-style: medium;
+  }
+
+  .decrip {
+    font-family: "Roboto", sans-serif;
+    font-weight: 16;
+    font-style: regular;
+  }
+  
+  .fo-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 14;
+    font-style: regular;
+  }
+
+  .balk2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 44;
+    font-style: black;
+  }
+
+  .name-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 18;
+    font-style: bold;
+  }
+  
+  
+  .decrip-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 16;
+    font-style: normal;
+  }
+  
+  
+  
