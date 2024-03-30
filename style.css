@@ -75,14 +75,14 @@ footer{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 26;
-    font-style: bold;
+    font-style: normal;
 }
 .studio{
     color: black;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 26;
-    font-style: bold;
+    font-style: normal;
 }
 
 .active-ground:hover{
@@ -99,30 +99,32 @@ footer{
     font-family: "Roboto", sans-serif;
     font-weight: 14;
     font-style: normal;
+    color: var(--grey-text-color);
   }
   
   .what {
     font-family: "Roboto", bold;
     font-weight: 36;
-    font-style: medium;
+    font-style: normal;
   }
 
   .balk {
     font-family: "Roboto", black;
     font-weight: 36;
-    font-style: medium;
+    font-style: normal;
   }
 
   .name {
     font-family: "Roboto", sans-serif;
     font-weight:16;
-    font-style: medium;
+    font-style: normal;
   }
 
   .decrip {
     font-family: "Roboto", regular;
     font-weight: 16;
     font-style: normal;
+    color: var(--grey-text-color);
   }
   
   .fo-font {
@@ -148,7 +150,25 @@ footer{
     font-family: "Roboto", sans-serif;
     font-weight: 16;
     font-style: normal;
+    color: var(--grey-text-color);
   }
   
+  .mailto{
+    text-decoration: var(--grey-text-color);
+    color: var(--grey-text-color)
+  }
+
+  .tel{
+    text-decoration: var(--grey-text-color);
+    color: var(--grey-text-colority-substrate-color);
+  }
+
+  .header-list{
+    list-style: none;
+  }
+
+  .main-list{
+    list-style: none;
+  }
   
   
