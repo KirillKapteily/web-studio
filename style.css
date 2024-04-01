@@ -7,6 +7,7 @@
 .active:hover{
     color: var(--accent-color);
 
+
     
 }
 .efectivity{
@@ -109,7 +110,7 @@ letter-spacing: 3%;
   text-align: left;
   }
 
-  .fblack {
+  .p-description {
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
@@ -118,7 +119,7 @@ letter-spacing: 3%;
     color: var(--grey-text-color);
   }
   
-  .what {
+  .what-we-do {
     color: var(--footer-efectivity-substrate-color);
 font-family: "Roboto";
 font-size: 36px;
@@ -127,7 +128,16 @@ line-height: 42px;
 letter-spacing: 3%;
   }
 
-  .balk {
+  .our-team{
+    color: var(--footer-efectivity-substrate-color);
+font-family: "Roboto";
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 3%;
+  }
+
+  .list-title {
     color: rgb(33, 33, 33);
 font-family: "Roboto";
 font-size: 14px;
@@ -171,7 +181,7 @@ letter-spacing: 3%;
     text-align: left;
   }
 
-  .balk2 {
+  .main-title {
     color: rgb(255, 255, 255);
 font-family: "Roboto";
 font-size: 44px;
@@ -233,4 +243,6 @@ letter-spacing: 3%;
     list-style: none;
   }
   
-  
+      body  {
+font-family: "Roboto";
+}  
