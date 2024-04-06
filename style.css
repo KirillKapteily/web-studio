@@ -108,6 +108,7 @@ letter-spacing: 3%;
   line-height: 16px;
   letter-spacing: 2%;
   text-align: left;
+  text-decoration:none;
   }
 
   .p-description {
@@ -126,7 +127,12 @@ font-size: 36px;
 font-weight: 700;
 line-height: 42px;
 letter-spacing: 3%;
+
   }
+
+.our-team-lisst{
+  list-style:none;
+}
 
   .our-team{
     color: var(--footer-efectivity-substrate-color);
@@ -135,6 +141,13 @@ font-size: 36px;
 font-weight: 700;
 line-height: 42px;
 letter-spacing: 3%;
+  }
+  .what-we-do-list{
+    list-style:none;
+  }
+
+  .our-team-picture-list{
+    list-style:none;
   }
 
   .list-title {
@@ -169,6 +182,7 @@ letter-spacing: 3%;
     font-family: "Roboto", regular;
     font-weight: 14;
     font-style: normal;
+    list-style: none;
   }
 
   .fo-footer {
@@ -233,6 +247,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 3%;
+list-style: none;
   }
 
   .header-list{
