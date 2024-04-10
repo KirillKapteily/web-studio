@@ -151,8 +151,6 @@ footer {
 
 .what-we-do-item{
   display: flex;
-  flex-direction: row; /* Горизонтальное расположение */
-  align-items: center; /* Выравнивание по вертикали */
   display: inline-block;
   margin-left: 30px;
 }
@@ -197,7 +195,16 @@ footer {
   letter-spacing: 3%;
   margin-bottom: 50px;
   display: flex;
+  justify-content: center;
   
+}
+
+.section-our-team{
+  
+  background-color: var(--our-command-substrate); 
+  margin-top: 188px;
+  margin-bottom: 50px;
+
 }
 
 .what-we-do-list {
@@ -219,17 +226,11 @@ footer {
   
 }
 
-.section-our-team{
-  display: flex;
-  background-color: var(--our-command-substrate); 
-  margin-top: 188px;
-  margin-bottom: 50px;
 
-}
 
-/* .our-team-item{
- 
-} */
+ .our-team-item{
+  margin-left: 30px;
+} 
 
 
 .name {
