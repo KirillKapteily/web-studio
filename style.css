@@ -15,7 +15,7 @@
 .efectivity {
   color: rgb(255, 255, 255);
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 280px;       
   background-color: var(--footer-efectivity-substrate-color);
   
 }
@@ -132,9 +132,14 @@ footer {
   height: 31px;
 }
 
-.active-ground:hover {
-  background-color: var(--accent-color);
+.active-ground {
+  width: 125px;
+height: 38px;
+border-radius: 4px;
+background-color: var(--our-command-substrate);
+  
 }
+
 
 .active {
   color: rgb(33, 33, 33);
@@ -336,6 +341,7 @@ footer {
   list-style: none;
   margin-top: 94px;
   margin-bottom: 50px;
+  margin-left: 30px;
   display: inline-block;
   display: flex;
   flex-direction: row; /* Горизонтальное расположение */
