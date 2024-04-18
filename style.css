@@ -7,9 +7,16 @@
 
 .active:hover {
   color: var(--accent-color);
+}
 
-
-
+.active-now{
+  background-color: var(--accent-color);
+  width: 125px;
+height: 38px;
+border-radius: 4px;
+border: none;
+display: flex;
+  justify-content: center;
 }
 
 .efectivity {
@@ -20,9 +27,6 @@
   
 }
 
-/* body{
-  background: url('345.jpg') no-repeat center center/cover;
-} */
 
 .Web {
   color: blue;
@@ -84,7 +88,6 @@ footer {
   background-color: var(--accent-color);
   color: white;
   border: none;
-  color: rgb(255, 255, 255);
   width: 216px;
   height: 50px;
   font-size: 16px;
@@ -133,8 +136,9 @@ footer {
   width: 125px;
 height: 38px;
 border-radius: 4px;
+display: flex;
+  justify-content: center;
 background-color: var(--our-command-substrate);
-  
 }
 
 
@@ -212,6 +216,17 @@ background-color: var(--our-command-substrate);
   display: flex;
   flex-direction: row; 
   justify-content: center;
+}
+
+.main-buttons-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+
+.main-buttons-item{
+  margin-right: 8px;
 }
 
 .our-team-picture-list {
