@@ -347,6 +347,9 @@ background-color: var(--our-command-substrate);
   list-style: none;
   margin-top: 32px ;
   margin-bottom: 32px;
+  display: flex;
+  align-content: flex-start;
+  
 }
 
 .main-list {
@@ -358,10 +361,16 @@ background-color: var(--our-command-substrate);
  
 }
 
+.header-page{
+  display: flex;
+}
+
 .main-list-2{
   list-style: none;
   margin-top: 94px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .what-w-d{
@@ -377,6 +386,7 @@ body {
 .header-list-contacts{
 list-style: none;
 margin-bottom: 32px;
+display: flex;
 }
 
 .container{
