@@ -378,7 +378,7 @@ height: 38px;
 }
 
   .header-page{
-  /* display: flex; */
+  display: flex;
   margin-bottom: 32px;
 }  
 
