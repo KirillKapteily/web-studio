@@ -5,6 +5,10 @@
   --our-command-substrate: #F5F4FA;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .active:hover {
   color: var(--accent-color);
 }
@@ -171,10 +175,17 @@ height: 38px;
 
 }
 
-/* .what-we-do-item{
-  
+.what-we-do-img{
+  display: block;
+  height: 100%;
+}
 
-} */
+.what-we-do-item{
+  /* height: 100px; */
+  margin:  0px 0px 0px 0px;
+  padding: -2px -2px -2px -2px;
+  outline: 2px solid blue;
+}
 
 .p-description {
   font-family: "Roboto";
@@ -250,6 +261,7 @@ height: 38px;
 
 .our-team-picture-list {
   list-style: none;
+  display: block;
 }
 
 .list-title {
@@ -349,8 +361,7 @@ height: 38px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 3%;
-  display: flex;
-align-content: flex-end;
+ 
 }
 
 .tel {
@@ -362,15 +373,24 @@ align-content: flex-end;
   line-height: 24px;
   letter-spacing: 3%;
   list-style: none;
-  display: flex;
-align-content: flex-end;
+
 }
 
 .header-list {
   list-style: none;
   display: flex;
-  align-content: flex-start;
+  justify-content: flex-start;
   gap: 50px;
+}
+
+.con-wrap{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.header-wraper{
+display: flex;
 }
 
 .main-list {
@@ -380,17 +400,19 @@ align-content: flex-end;
   margin-bottom: 50px;
 }
 
-  .header-page{
+  /* .header-page{
   display: flex;
   margin-bottom: 32px;
-}  
+}   */
 
 .main-list-2{
   list-style: none;
   margin-top: 94px;
   margin-bottom: 50px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  gap: 30px;
 }
 
 .what-w-d{
@@ -406,7 +428,7 @@ body {
 .header-list-contacts{
 list-style: none;
 display: flex;
-align-content: flex-end;
+justify-content: flex-end;
 gap: 50px;
 }
 
