@@ -366,7 +366,7 @@ height: 38px;
 
 .tel {
   text-decoration: var(--grey-text-color);
-  color: var(--grey-text-colority-substrate-color);
+ color: var(--grey-text-color);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
@@ -376,6 +376,10 @@ height: 38px;
 
 }
 
+.header-tell{
+ color: var(--footer-efectivity-substrate-color);
+ text-decoration: none;
+}
 .header-list {
   list-style: none;
   display: flex;
@@ -430,6 +434,7 @@ list-style: none;
 display: flex;
 justify-content: flex-end;
 gap: 50px;
+margin: 0;
 }
 
 .container{
