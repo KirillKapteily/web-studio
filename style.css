@@ -122,7 +122,7 @@ footer {
   text-decoration: none;
   width: 145px;
   font-weight: 31px;
-  
+  margin-top: 7px;
 }
 
 .studio {
@@ -246,6 +246,11 @@ height: 38px;
   justify-content: center;
   gap: 30px;
   padding-left:0px ;
+}
+
+.main-item-2{
+  
+  flex-basis: calc((100% - 20px*370) / 9);
 }
 
 .main-buttons-list{
@@ -385,6 +390,8 @@ height: 38px;
   display: flex;
   justify-content: flex-start;
   gap: 50px;
+  margin-right: auto;
+  width: 676px;
 }
 
 .con-wrap{
@@ -393,9 +400,9 @@ height: 38px;
 
 }
 
-.header-wraper{
+/* .header-wraper{
 display: flex;
-}
+} */
 
 .main-list {
   display: flex;
@@ -404,10 +411,10 @@ display: flex;
   margin-bottom: 50px;
 }
 
-  /* .header-page{
+  .header-page{
   display: flex;
-  margin-bottom: 32px;
-}   */
+ 
+}  
 
 .main-list-2{
   list-style: none;
@@ -432,10 +439,15 @@ body {
 .header-list-contacts{
 list-style: none;
 display: flex;
-justify-content: flex-end;
 gap: 50px;
-margin: 0;
+margin-left: auto;
+justify-content: space-between;
           
+}
+
+.header-nav{
+  display: flex;
+  justify-content:space-between ;
 }
 
 .container{
