@@ -5,7 +5,7 @@
   --our-command-substrate: #F5F4FA;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -17,28 +17,28 @@
   display: flex;
 } */
 
-.active-now{
+.active-now {
   font-family: "Roboto";
   background-color: var(--accent-color);
   color: white;
   border: none;
   width: 73px;
-height: 38px;
+  height: 38px;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   margin-bottom: 30px;
   letter-spacing: 6%;
   border-radius: 4px;
-  
-}   
+
+}
 
 .efectivity {
   color: rgb(255, 255, 255);
   padding-top: 200px;
-  padding-bottom: 280px;       
+  padding-bottom: 280px;
   background-color: var(--footer-efectivity-substrate-color);
-  
+
 }
 
 
@@ -153,7 +153,7 @@ footer {
   color: black;
   border: none;
   width: 125px;
-height: 38px;
+  height: 38px;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -171,18 +171,18 @@ height: 38px;
   line-height: 16px;
   letter-spacing: 2%;
   text-decoration: none;
- 
+
 
 }
 
-.what-we-do-img{
+.what-we-do-img {
   display: block;
   height: 100%;
 }
 
-.what-we-do-item{
+.what-we-do-item {
   /* height: 100px; */
-  margin:  0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: -2px -2px -2px -2px;
   outline: 2px solid blue;
 }
@@ -205,7 +205,7 @@ height: 38px;
   letter-spacing: 3%;
   display: flex;
   justify-content: center;
-  
+
 
 }
 
@@ -213,12 +213,12 @@ height: 38px;
   list-style: none;
   margin-bottom: 94px;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: center;
   gap: 30px;
 }
 
-.our-team{
+.our-team {
   color: var(--footer-efectivity-substrate-color);
   font-family: "Roboto";
   font-size: 36px;
@@ -228,12 +228,12 @@ height: 38px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  
+
 }
 
-.section-our-team{
-  
-  background-color: var(--our-command-substrate); 
+.section-our-team {
+
+  background-color: var(--our-command-substrate);
   margin-top: 188px;
   margin-bottom: 50px;
 
@@ -242,25 +242,25 @@ height: 38px;
 .what-we-do-list {
   list-style: none;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: center;
   gap: 30px;
-  padding-left:0px ;
+  padding-left: 0px;
 }
 
-.main-item-2{
-  
+.main-item-2 {
+
   flex-basis: calc((100% - 20px*370) / 9);
 }
 
-.main-buttons-list{
+.main-buttons-list {
   list-style: none;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: center;
 }
 
-.main-buttons-item{
+.main-buttons-item {
   margin-right: 8px;
 }
 
@@ -268,6 +268,91 @@ height: 38px;
   list-style: none;
   display: block;
 }
+
+.card-img::before,
+.card-img::after{
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+}
+
+.card-img::after{
+  background-image: url(antenna.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img::after{
+  display: flex;
+  background-position: center;
+  background-color: var(--our-command-substrate);
+  background-size: 70px;
+}
+
+.card-img-clock::before,
+.card-img-clock::after{
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+}
+
+.card-img-clock::after{
+  background-image: url(clock.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img-clock::after{
+  display: flex;
+  background-position: center;
+  background-color: var(--our-command-substrate);
+  background-size: 70px;
+}
+
+.card-img-gra::before,
+.card-img-gra::after{
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+}
+
+.card-img-gra::after{
+  background-image: url(diagram.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img-gra::after{
+  display: flex;
+  background-position: center;
+  background-color: var(--our-command-substrate);
+  background-size: 70px;
+}
+
+.card-img-astro::before,
+.card-img-astro::after{
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+}
+
+.card-img-astro::after{
+  background-image: url(astronaut.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img-astro::after{
+  display: flex;
+  background-position: center;
+  background-color: var(--our-command-substrate);
+  background-size: 70px;
+}
+
 
 .list-title {
   color: rgb(33, 33, 33);
@@ -278,12 +363,12 @@ height: 38px;
   letter-spacing: 3%;
   margin-bottom: 10px;
   text-transform: uppercase;
-  
+
 }
 
 
 
- /* .our-team-item{
+/* .our-team-item{
   margin-left: 30px;
 }  */
 
@@ -330,7 +415,8 @@ height: 38px;
   line-height: 60px;
   letter-spacing: 6%;
   text-transform: uppercase;
-   margin-top: 200px;
+  margin-top: 200px;
+  
 }
 
 .name-2 {
@@ -366,12 +452,12 @@ height: 38px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 3%;
- 
+
 }
 
 .tel {
   text-decoration: var(--grey-text-color);
- color: var(--grey-text-color);
+  color: var(--grey-text-color);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
@@ -381,10 +467,11 @@ height: 38px;
 
 }
 
-.header-tell{
- color: var(--footer-efectivity-substrate-color);
- text-decoration: none;
+.header-tell {
+  color: var(--footer-efectivity-substrate-color);
+  text-decoration: none;
 }
+
 .header-list {
   list-style: none;
   display: flex;
@@ -394,7 +481,7 @@ height: 38px;
   width: 676px;
 }
 
-.con-wrap{
+.con-wrap {
   display: flex;
   justify-content: flex-end;
 
@@ -409,14 +496,16 @@ display: flex;
   list-style: none;
   margin-top: 94px;
   margin-bottom: 50px;
+  padding: 0px;
+  gap: 30px;
 }
 
-  .header-page{
+.header-page {
   display: flex;
- 
-}  
 
-.main-list-2{
+}
+
+.main-list-2 {
   list-style: none;
   margin-top: 94px;
   margin-bottom: 50px;
@@ -426,7 +515,7 @@ display: flex;
   gap: 30px;
 }
 
-.what-w-d{
+.what-w-d {
   margin-top: 94px;
   margin-bottom: 50px;
 }
@@ -436,25 +525,22 @@ body {
   font-family: "Roboto";
 }
 
-.header-list-contacts{
-list-style: none;
-display: flex;
-gap: 50px;
-margin-left: auto;
-justify-content: space-between;
-          
-}
-
-.header-nav{
+.header-list-contacts {
+  list-style: none;
   display: flex;
-  justify-content:space-between ;
+  gap: 50px;
+  margin-left: auto;
+  justify-content: space-between;
+
 }
 
-.container{
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
   width: 1170px;
   margin: 0 auto;
   outline: red 1px solid;
 }
-
-
-
