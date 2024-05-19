@@ -34,11 +34,19 @@
 }
 
 .efectivity {
+  width: 1600;
+  height: 600px;
   color: rgb(255, 255, 255);
-  padding-top: 200px;
-  padding-bottom: 280px;
-  background-color: var(--footer-efectivity-substrate-color);
-
+  /* padding-top: 200px;
+  padding-bottom: 280px; */
+  background-image: url(efimg.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: var(--footer-efectivity-substrate-color); */
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 
@@ -92,10 +100,13 @@ footer {
   background-color: var(--our-command-substrate);
 }
 
-.efectivity {
-  background-color: var(--footer-efectivity-substrate-color);
+/* .efectivity {
+   background-color: var(--footer-efectivity-substrate-color); 
   text-align: center;
-}
+  display: flex;
+  align-content: center;
+  
+} */
 
 .button-order {
   font-family: "Roboto";
@@ -106,10 +117,16 @@ footer {
   height: 50px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
-  margin-bottom: 30px;
-  letter-spacing: 6%;
+  /* line-height: 30px; */
+  /* margin-bottom: 30px; */
+  /* letter-spacing: 6%; */
+  
   border-radius: 4px;
+  
+  display: flex; 
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .webstudio {
@@ -184,7 +201,7 @@ footer {
   /* height: 100px; */
   margin: 0px 0px 0px 0px;
   padding: -2px -2px -2px -2px;
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
 }
 
 .p-description {
@@ -249,20 +266,25 @@ footer {
 }
 
 .main-item-2 {
-
   flex-basis: calc((100% - 20px*370) / 9);
+}
+
+.main-item-2:hover{
+  
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),0px 4px 4px 0px rgba(0, 0, 0, 0.06),0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .main-buttons-list {
   list-style: none;
   display: flex;
   flex-direction: row;
+  gap: 8px;
   justify-content: center;
 }
 
-.main-buttons-item {
+/* .main-buttons-item {
   margin-right: 8px;
-}
+} */
 
 .our-team-picture-list {
   list-style: none;
@@ -275,6 +297,7 @@ footer {
   width: 270px;
   height: 120px;
   background-size: contain;
+  border-radius: 4px;
 }
 
 .card-img::after{
@@ -296,6 +319,7 @@ footer {
   width: 270px;
   height: 120px;
   background-size: contain;
+  border-radius: 4px;
 }
 
 .card-img-clock::after{
@@ -317,6 +341,7 @@ footer {
   width: 270px;
   height: 120px;
   background-size: contain;
+  border-radius: 4px;
 }
 
 .card-img-gra::after{
@@ -338,6 +363,7 @@ footer {
   width: 270px;
   height: 120px;
   background-size: contain;
+  border-radius: 4px;
 }
 
 .card-img-astro::after{
@@ -368,9 +394,11 @@ footer {
 
 
 
-/* .our-team-item{
-  margin-left: 30px;
-}  */
+.our-team-item{
+  border-radius: 0px 0px 4px 4px;
+ 
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}  
 
 
 .name {
@@ -380,6 +408,8 @@ footer {
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 3%;
+  display: flex;
+  justify-content: center;
 }
 
 .decrip {
@@ -389,6 +419,8 @@ footer {
   line-height: 19px;
   letter-spacing: 3%;
   color: var(--grey-text-color);
+  display: flex;
+  justify-content: center;
 }
 
 .fo-font {
@@ -415,8 +447,10 @@ footer {
   line-height: 60px;
   letter-spacing: 6%;
   text-transform: uppercase;
-  margin-top: 200px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .name-2 {
@@ -542,5 +576,5 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
-  outline: red 1px solid;
+  /* outline: red 1px solid; */
 }
