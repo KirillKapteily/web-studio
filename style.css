@@ -462,6 +462,7 @@ footer {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 6%;
+  padding-left: 24px;
 
 }
 
@@ -476,6 +477,7 @@ footer {
   letter-spacing: 3%;
   text-align: left;
   color: var(--grey-text-color);
+  padding-left: 24px;
 }
 
 .mailto {
