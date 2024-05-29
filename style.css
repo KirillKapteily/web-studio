@@ -1,8 +1,10 @@
 :root {
+  --accent-color-hover: #188CE8;
   --accent-color: #2196F3;
   --grey-text-color: #757575;
   --footer-efectivity-substrate-color: #2F303A;
   --our-command-substrate: #F5F4FA;
+  --efectivity-trans-color: #2e2f3b3f;
 }
 
 * {
@@ -27,11 +29,12 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   letter-spacing: 6%;
   border-radius: 4px;
 
 }
+
 
 .efectivity {
   width: 1600;
@@ -39,14 +42,17 @@
   color: rgb(255, 255, 255);
   /* padding-top: 200px;
   padding-bottom: 280px; */
-  background-image: url(efimg.jpg) ;
+  background-image: linear-gradient(to right,
+      rgba(46, 47, 59, 0.247),
+      rgba(46, 47, 59, 0.247)),
+    url("efimg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: var(--footer-efectivity-substrate-color); */
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
@@ -117,16 +123,19 @@ footer {
   height: 50px;
   font-size: 16px;
   font-weight: 700;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   /* line-height: 30px; */
   /* margin-bottom: 30px; */
   /* letter-spacing: 6%; */
-  
   border-radius: 4px;
-  
-  display: flex; 
+  display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+}
+
+.button-order:hover {
+  background-color: var(--accent-color-hover);
 }
 
 .webstudio {
@@ -174,7 +183,7 @@ footer {
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   letter-spacing: 6%;
   border-radius: 4px;
 }
@@ -267,16 +276,18 @@ footer {
 
 .main-item-2 {
   flex-basis: calc((100% - 20px*370) / 9);
+  border: 1px solid rgb(238, 238, 238);
 }
 
-.main-item-2:hover{
-  
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),0px 4px 4px 0px rgba(0, 0, 0, 0.06),0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+.main-item-2:hover {
+
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .main-buttons-list {
   list-style: none;
   display: flex;
+  margin-top: 94px;
   flex-direction: row;
   gap: 8px;
   justify-content: center;
@@ -292,7 +303,7 @@ footer {
 }
 
 .card-img::before,
-.card-img::after{
+.card-img::after {
   content: "";
   width: 270px;
   height: 120px;
@@ -300,13 +311,13 @@ footer {
   border-radius: 4px;
 }
 
-.card-img::after{
+.card-img::after {
   background-image: url(antenna.png);
   background-size: 100px;
   background-repeat: no-repeat;
 }
 
-.card-img::after{
+.card-img::after {
   display: flex;
   background-position: center;
   background-color: var(--our-command-substrate);
@@ -314,7 +325,7 @@ footer {
 }
 
 .card-img-clock::before,
-.card-img-clock::after{
+.card-img-clock::after {
   content: "";
   width: 270px;
   height: 120px;
@@ -322,13 +333,13 @@ footer {
   border-radius: 4px;
 }
 
-.card-img-clock::after{
+.card-img-clock::after {
   background-image: url(clock.png);
   background-size: 100px;
   background-repeat: no-repeat;
 }
 
-.card-img-clock::after{
+.card-img-clock::after {
   display: flex;
   background-position: center;
   background-color: var(--our-command-substrate);
@@ -336,7 +347,7 @@ footer {
 }
 
 .card-img-gra::before,
-.card-img-gra::after{
+.card-img-gra::after {
   content: "";
   width: 270px;
   height: 120px;
@@ -344,13 +355,13 @@ footer {
   border-radius: 4px;
 }
 
-.card-img-gra::after{
+.card-img-gra::after {
   background-image: url(diagram.png);
   background-size: 100px;
   background-repeat: no-repeat;
 }
 
-.card-img-gra::after{
+.card-img-gra::after {
   display: flex;
   background-position: center;
   background-color: var(--our-command-substrate);
@@ -358,7 +369,7 @@ footer {
 }
 
 .card-img-astro::before,
-.card-img-astro::after{
+.card-img-astro::after {
   content: "";
   width: 270px;
   height: 120px;
@@ -366,13 +377,13 @@ footer {
   border-radius: 4px;
 }
 
-.card-img-astro::after{
+.card-img-astro::after {
   background-image: url(astronaut.png);
   background-size: 100px;
   background-repeat: no-repeat;
 }
 
-.card-img-astro::after{
+.card-img-astro::after {
   display: flex;
   background-position: center;
   background-color: var(--our-command-substrate);
@@ -394,11 +405,11 @@ footer {
 
 
 
-.our-team-item{
+.our-team-item {
   border-radius: 0px 0px 4px 4px;
- 
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}  
+
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 
 
 .name {
@@ -508,6 +519,13 @@ footer {
   text-decoration: none;
 }
 
+.hr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(236, 236, 236);
+}
+
 .header-list {
   list-style: none;
   display: flex;
@@ -536,19 +554,19 @@ display: flex;
   gap: 30px;
 }
 
-.header-page {
-  display: flex;
 
+header {
+  display: flex;
 }
 
 .main-list-2 {
   list-style: none;
-  margin-top: 94px;
+  margin-top: 34px;
   margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0px;
-  gap: 30px;
+  gap: 27px;
 }
 
 .what-w-d {
