@@ -226,12 +226,19 @@ text-align: center;
 list-style: none;
 gap: 30px;
 display: flex;
+justify-content: center;
 }
 
-.client-item{\
-  box-sizing: border-box;
+.client-ico{
+  margin: 0 auto;
+}
+
+.client-item{
 border: 1px solid rgb(175, 177, 184);
 border-radius: 4px;
+display: flex;
+width: 170px;
+height: 92px;
 }
 
 .what-we-do-img {
@@ -310,6 +317,15 @@ border-radius: 4px;
 .main-item-2 {
   flex-basis: calc((100% - 20px*370) / 9);
   border: 1px solid rgb(238, 238, 238);
+}
+
+.so-net-ico{
+  display: flex;
+  
+}
+
+.footer-title{
+  
 }
 
 .main-item-2:hover {
