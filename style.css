@@ -36,8 +36,8 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.active-now:hover{
-background-color: var(--accent-color-hover);
+.active-now:hover {
+  background-color: var(--accent-color-hover);
 }
 
 
@@ -156,6 +156,8 @@ footer {
   font-weight: 31px;
   margin-top: 7px;
   padding-left: 35px;
+  margin-top: 22px;
+  margin-right: 93px;
 }
 
 .studio {
@@ -196,8 +198,8 @@ footer {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.active-ground:hover{
-background-color: var(--our-command-substrate-hover);
+.active-ground:hover {
+  background-color: var(--our-command-substrate-hover);
 }
 
 .active {
@@ -208,8 +210,28 @@ background-color: var(--our-command-substrate-hover);
   line-height: 16px;
   letter-spacing: 2%;
   text-decoration: none;
+}
 
+.client-title{
+  color: rgb(33, 33, 33);
+font-family: "Roboto";
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 3%;
+text-align: center;
+}
 
+.client-list{
+list-style: none;
+gap: 30px;
+display: flex;
+}
+
+.client-item{\
+  box-sizing: border-box;
+border: 1px solid rgb(175, 177, 184);
+border-radius: 4px;
 }
 
 .what-we-do-img {
@@ -543,7 +565,8 @@ background-color: var(--our-command-substrate-hover);
   justify-content: flex-start;
   gap: 50px;
   margin-right: auto;
-  width: 676px;
+  width: 576px;
+  align-items: center;
 }
 
 .con-wrap {
@@ -568,6 +591,7 @@ display: flex;
 
 header {
   display: flex;
+  height: 80px;
 }
 
 .main-list-2 {
@@ -596,7 +620,7 @@ body {
   gap: 50px;
   margin-left: auto;
   justify-content: space-between;
-
+  align-items: center;
 }
 
 .header-nav {
