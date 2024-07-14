@@ -336,6 +336,7 @@ height: 92px;
 .footer-title{
   color:white;
   display: flex;
+  margin-top: 0px;
 }
 
 .main-item-2:hover {
@@ -508,12 +509,14 @@ height: 92px;
   width: 241px;
 }
 
+.fo-so-net-item{
+  width: 20px;
+}
+
 .fo-so-net-list{
   list-style: none;
-  width: 206px;
-  margin-right: 93px;
-  margin-left: 70px;
   display: flex;
+  margin-top: 0px;
   gap: 33px;
 }
 
@@ -682,6 +685,11 @@ body {
 
 .footer-wrapper{
   display: flex;
+}
+
+.header-mail{
+  display: flex;
+  justify-content: end;
 }
 
 .container {
