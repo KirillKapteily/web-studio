@@ -234,7 +234,9 @@ justify-content: center;
 }
 
 .client-ico{
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .client-item{
@@ -242,6 +244,8 @@ border: 1px solid rgb(175, 177, 184);
 border-radius: 4px;
 display: flex;
 width: 170px;
+justify-content: center;
+  align-items: center;
 height: 92px;
 }
 
@@ -460,6 +464,14 @@ height: 92px;
 
 
 
+.svg-ico-list{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  padding-left:0px ;
+  margin-bottom: 42px;
+}
+
 .our-team-item {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -505,10 +517,14 @@ height: 92px;
   gap: 33px;
 }
 
-.footer-container{
 
+.footer-wrapper-contacts{
+  outline: solid 1px red;
 }
 
+.footer-social-networking-wrapper{
+  outline: solid 1px red;
+}
 
 .fo-footer {
   color: rgb(255, 255, 255);
@@ -664,8 +680,12 @@ body {
   justify-content: space-between;
 }
 
+.footer-wrapper{
+  display: flex;
+}
+
 .container {
   width: 1170px;
   margin: 0 auto;
-  /* outline: red 1px solid; */
+  outline: rgb(110, 173, 209) 1px solid;
 }
