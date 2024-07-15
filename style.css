@@ -3,6 +3,7 @@
   --accent-color: #2196F3;
   --grey-text-color: #757575;
   --footer-efectivity-substrate-color: #2F303A;
+  --footer-so-net-color: rgba(255, 255, 255, 0.1);
   --our-command-substrate: #F5F4FA;
   --our-command-substrate-hover: #e9e6e6;
   --efectivity-trans-color: #2e2f3b3f;
@@ -337,6 +338,7 @@ height: 92px;
   color:white;
   display: flex;
   margin-top: 0px;
+  
 }
 
 .main-item-2:hover {
@@ -470,9 +472,10 @@ height: 92px;
   list-style: none;
   gap: 40px;
   padding-left:0px ;
+  justify-content: center;
   margin-bottom: 42px;
+  align-items: center;
 }
-
 .our-team-item {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -511,12 +514,18 @@ height: 92px;
 
 .fo-so-net-item{
   width: 20px;
+  margin-left: 0px;
+  padding-left: 0px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
 .fo-so-net-list{
   list-style: none;
   display: flex;
   margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
   gap: 33px;
 }
 
