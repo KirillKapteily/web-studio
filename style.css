@@ -255,7 +255,6 @@ height: 92px;
 }
 
 .client-item:hover{
-  
 color: var(--accent-color);
 }
 
@@ -339,9 +338,6 @@ color: var(--accent-color);
 
 .so-net-ico{
   display: flex;
-  /* width: 20px;
-  height: 20px; */
-  
 }
 
 .so-net-ico:hover{
@@ -481,9 +477,9 @@ border-radius: 50%;
 
 }
 
-.svg-ico-item{
+/* .svg-ico-item{
   
-}
+} */
 
 .svg-ico-list{
   display: flex;
@@ -530,14 +526,22 @@ border-radius: 50%;
   width: 241px;
 }
 
+.so-net-ico-link{
+  display: block;
+  padding: 12px 12px;
+  
+}
+
 .fo-so-net-item{
-  margin-left: 0px;
-  padding-left: 0px;
+  /* margin-left: 0px;
+  padding-left: 0px; */
   background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
   border-radius: 50%;
   display: flex; 
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .fo-so-net-item:hover{
@@ -545,9 +549,9 @@ border-radius: 50%;
 }
 
 .fo-so-net-ico{
-width: 30px;
-height: 30px;
-
+width: 24px;
+height: 24px;
+display: block;
 }
 
 .fo-so-net-list{
@@ -557,10 +561,28 @@ height: 30px;
   margin-left: 0px;
 padding-top: 0px;
   padding-left: 0px;
-  gap: 33px;
+  gap: 10px;
 justify-content: center;
 }
 
+.thumb{
+  position: relative;
+  background-color: rgba(47, 48, 58, 0.8);
+  
+}
+
+
+.thumb > .label{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 117px;
+  color: var(--our-command-substrate);
+  font-size: 14px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+}
 
 .footer-wrapper-contacts{
   outline: solid 1px red;
