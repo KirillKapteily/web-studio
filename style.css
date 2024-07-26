@@ -337,7 +337,7 @@ color: var(--accent-color);
 }
 
 .so-net-ico{
-  display: flex;
+  display: block;
 }
 
 .so-net-ico:hover{
@@ -477,9 +477,9 @@ border-radius: 50%;
 
 }
 
-/* .svg-ico-item{
+.svg-ico-item{
   
-} */
+} 
 
 .svg-ico-list{
   display: flex;
@@ -529,7 +529,11 @@ border-radius: 50%;
 .so-net-ico-link{
   display: block;
   padding: 12px 12px;
-  
+}
+
+.so-net-link{
+  display: block;
+
 }
 
 .fo-so-net-item{
@@ -582,6 +586,7 @@ justify-content: center;
 font-weight: 700;
 text-align: center;
 text-transform: uppercase;
+margin: 0px;
 }
 
 .footer-wrapper-contacts{
