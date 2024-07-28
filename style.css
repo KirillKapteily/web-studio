@@ -337,10 +337,12 @@ color: var(--accent-color);
 }
 
 .so-net-ico{
-  display: block;
+  width: 20px;
+height: 20px;
+display: block;
 }
 
-.so-net-ico:hover{
+.svg-ico-item:hover{
 color: white;
 background-color: var(--accent-color);
 border-radius: 50%;
@@ -478,13 +480,15 @@ border-radius: 50%;
 }
 
 .svg-ico-item{
-  
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
+  border-radius: 50%;
 } 
 
 .svg-ico-list{
   display: flex;
   list-style: none;
-  gap: 40px;
+  gap: 20px;
   padding-left:0px ;
   justify-content: center;
   margin-bottom: 42px;
@@ -533,7 +537,7 @@ border-radius: 50%;
 
 .so-net-link{
   display: block;
-
+  padding: 12px 12px;
 }
 
 .fo-so-net-item{
@@ -575,18 +579,21 @@ justify-content: center;
   
 }
 
-
 .thumb > .label{
   position: absolute;
   bottom: 0;
   background-color: rgba(47, 48, 58, 0.8);
-  padding: 27px 117px;
+  width: 370px;
+height: 70px;
   color: var(--our-command-substrate);
   font-size: 14px;
 font-weight: 700;
 text-align: center;
 text-transform: uppercase;
 margin: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .footer-wrapper-contacts{
