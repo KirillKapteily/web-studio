@@ -5,6 +5,7 @@
   --footer-efectivity-substrate-color: #2F303A;
   --footer-so-net-color: rgba(255, 255, 255, 0.1);
   --our-command-substrate: #F5F4FA;
+  --white: #ffff;
   --our-command-substrate-hover: #e9e6e6;
   --efectivity-trans-color: #2e2f3b3f;
 }
@@ -20,6 +21,11 @@
 /* .active{
   display: flex;
 } */
+
+.active-r-now{
+  color: var(--accent-color);
+  text-decoration: none;
+}
 
 .active-now {
   font-family: "Roboto";
@@ -270,6 +276,11 @@ color: var(--accent-color);
   /* outline: 2px solid blue; */
 }
 
+.footer-form{
+margin-left: 95px;
+}
+
+
 .p-description {
   font-family: "Roboto";
   font-size: 14px;
@@ -355,8 +366,9 @@ border-radius: 50%;
   
 }
 
-.main-item-2:hover {
 
+.main-item-2:hover {
+  
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -562,6 +574,200 @@ height: 24px;
 display: block;
 }
 
+.footer-button{
+  margin-left: 12px;
+  font-family: "Roboto";
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  width: 216px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-img{
+  margin-left: 10px;
+}
+
+.footer-input{
+  box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background: rgba(33, 150, 243, 0);
+width: 358px;
+height: 50px;
+padding-left: 15px;
+color: white;
+}
+
+.modal-title{
+  color: rgb(33, 33, 33);
+font-family: "Roboto";
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 3%;
+text-align: center;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+ width: 100%;
+ height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+ }
+ 
+ 
+ .backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+ }
+ 
+ .no-scroll {
+  overflow: hidden;
+ }
+ 
+.modal-img{
+  position: absolute;
+    padding: 10px;
+    padding-top: 14px;
+}
+
+.modal-link{
+  color: var(--accent-color);
+}
+
+.terms{
+  color: var(--grey-text-color);
+  text-decoration: none;
+}
+
+.btn-send{
+  color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 6%;
+text-align: center;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background: rgb(33, 150, 243);
+width: 200px;
+height: 50px;
+border-style: none;
+}
+
+.checkbox{
+  display: block;
+    width: 16px;
+    height: 15px;
+    position: relative;
+    top: 33px;
+    margin-right: 7px;
+    border: 1.5px solid #212121;
+    border-radius: 4px;
+}
+
+.modal-input{
+  width: 448px;
+height: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+margin-bottom: 18px;
+padding-left: 25px;
+}
+
+.modal-area{
+  width: 448px;
+height: 120px;
+  margin-top: 18px;
+  box-sizing: border-box;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.btn-close{
+  /* box-sizing: border-box; */
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-color: var(--white);
+/* display: flex;
+justify-content: space-between */
+}
+
+/* .close-img{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.modal-par{
+  color: rgb(117, 117, 117);
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 1%;
+margin-left:10px ;
+text-align: left;
+}
+
+ .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ min-width: 500px;
+ min-height: 500px;
+  padding: 15px;
+  border-radius: 4px;
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+background: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+ }
+
+.decor{
+  position: relative;
+  top: 30px;
+  right: 2px;
+  width: 48px;
+height: 4px;
+  border-radius: 2px;
+background: rgb(33, 150, 243);
+}
+
+.decor-2{
+  position: relative;
+  top: 30px;
+  right: 2px;
+  width: 78px;
+height: 4px;
+  border-radius: 2px;
+background: rgb(33, 150, 243);
+}
+
 .fo-so-net-list{
   list-style: none;
   display: flex;
@@ -761,6 +967,7 @@ body {
 .footer-wrapper{
   display: flex;
 }
+
 
 .header-mail{
   display: flex;
