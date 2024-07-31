@@ -350,13 +350,12 @@ margin-left: 95px;
 .so-net-ico{
   width: 20px;
 height: 20px;
-display: block;
 }
 
 .svg-ico-item:hover{
-color: white;
 background-color: var(--accent-color);
 border-radius: 50%;
+
 }
 
 .footer-title{
@@ -866,8 +865,6 @@ align-items: center;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 3%;
 
 }
 
@@ -886,6 +883,8 @@ align-items: center;
 .header-tell {
   color: var(--footer-efectivity-substrate-color);
   text-decoration: none;
+  font-size: 14px;
+font-weight: 500;
 }
 
 .hr {
@@ -901,7 +900,7 @@ align-items: center;
   justify-content: flex-start;
   gap: 50px;
   margin-right: auto;
-  width: 576px;
+  width: 500px;
   align-items: center;
 }
 
@@ -970,14 +969,16 @@ body {
 
 
 .header-mail{
-  display: flex;
+  margin-right: 10px;
+  /* position: relative;
+  right: 30px;
+  align-items: center; */
   /* justify-content: end; */
   
 }
 
 .header-phone{
-  display: flex;
-  justify-content: center;
+  margin-right: 10px;
 }
 
 .container {
