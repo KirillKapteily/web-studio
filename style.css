@@ -223,9 +223,9 @@ footer{
   text-decoration: none;
 }
 
-.active-svg{
+/* .active-svg{
   
-}
+} */
 
 .client-title{
   color: rgb(33, 33, 33);
@@ -533,6 +533,38 @@ border-radius: 50%;
   justify-content: center;
 }
 
+.hidden-text{
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.hidden-text:hover{
+
+}
+
+.box{
+  position: relative;
+  overflow: hidden;
+}
+
+.box:hover .hidden-text {
+  transform: translatey(-100%);
+}
+
+
+.img-text{
+
+}
+
 .fo-font {
   font-family: "Roboto", regular;
   font-weight: 14;
@@ -547,8 +579,19 @@ border-radius: 50%;
 }
 
 .so-net-link{
+  color: white;
+fill: currentColor;
   display: block;
   padding: 12px 12px;
+}
+
+.so-net-link .so-net-ico:hover{
+  background-color: var(--accent-color);
+}
+
+.so-net-link:hover{
+color: white;
+fill: white;
 }
 
 .fo-so-net-item{
@@ -686,7 +729,7 @@ box-sizing: border-box;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 margin-bottom: 18px;
-padding-left: 25px;
+padding-left: 30px;
 }
 
 .modal-area{
